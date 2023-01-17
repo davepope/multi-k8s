@@ -22,4 +22,4 @@ after_success:
   - docker push epopevad/multi-client
   - docker push epopevad/multi-nginx
   - docker push epopevad/multi-server
-  - docker push epopevad/mutli-worker
+  - docker push epopevad/multi-worker
