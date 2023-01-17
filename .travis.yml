@@ -11,8 +11,8 @@ script:
 
 after_success:
   - docker build -t epopevad/multi-client ./client
-  - docker build -t epopevad/mutli-nginx ./nginx
-  - docker build -t epopevad/mutli-server ./server
+  - docker build -t epopevad/multi-nginx ./nginx
+  - docker build -t epopevad/multi-server ./server
   - docker build -t epopevad/multi-worker ./worker
 
   # Login in to the docker CLI
