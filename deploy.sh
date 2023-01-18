@@ -4,7 +4,7 @@ docker build -t epopevad/multi-worker:latest -t epopevad/multi-worker:$SHA -f ./
 docker push epopevad/mutli-client:latest
 docker push epopevad/multi-server:latest
 docker push epopevad/multi-worker:latest
-docker push epopevad/mutli-client:$SHA
+docker push epopevad/multi-client:$SHA
 docker push epopevad/multi-server:$SHA
 docker push epopevad/multi-worker:$SHA
 
